@@ -41,7 +41,7 @@ nodes:
   - hostname: "vdhclu01node02"
     ipAddress: "172.16.2.82"
     installDiskSelector:
-      serial: "2244E6801A85"
+      serial: "2244E6801A88"
     talosImageURL: factory.talos.dev/installer/
     controlPlane: true
     networkInterfaces:
@@ -58,7 +58,7 @@ nodes:
   - hostname: "vdhclu01node03"
     ipAddress: "172.16.2.83"
     installDiskSelector:
-      serial: "2244E6801787"
+      serial: "2244E6801A85"
     talosImageURL: factory.talos.dev/installer/
     controlPlane: true
     networkInterfaces:
