@@ -11,7 +11,7 @@ spec:
   virtualRouters:
     - localASN: 
       neighbors:
-        - peerAddress: "172.16.2.1"/32"
+        - peerAddress: "172.16.2.1/32"
           peerASN: 
       serviceSelector:
         matchExpressions:

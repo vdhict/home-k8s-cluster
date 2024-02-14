@@ -35,7 +35,7 @@ nodes:
         mtu: 1500
         routes:
           - network: 0.0.0.0/0
-            gateway: "172.16.2.1""
+            gateway: "172.16.2.1"
         vip:
           ip: ""
   - hostname: "vdhclu01node02"
@@ -43,7 +43,7 @@ nodes:
     installDiskSelector:
       serial: "2244E6801A85"
     talosImageURL: factory.talos.dev/installer/
-    controlPlane: 
+    controlPlane: true
     networkInterfaces:
       - interface: eth0
         dhcp: false
@@ -52,7 +52,9 @@ nodes:
         mtu: 1500
         routes:
           - network: 0.0.0.0/0
-            gateway: "172.16.2.1""
+            gateway: "172.16.2.1"
+        vip:
+          ip: ""
   - hostname: "vdhclu01node03"
     ipAddress: "172.16.2.83"
     installDiskSelector:
@@ -67,7 +69,7 @@ nodes:
         mtu: 1500
         routes:
           - network: 0.0.0.0/0
-            gateway: "172.16.2.1""
+            gateway: "172.16.2.1"
         vip:
           ip: ""
 
