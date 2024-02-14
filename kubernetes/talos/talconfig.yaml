@@ -25,7 +25,7 @@ nodes:
       serial: "2244E6801787"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/installer-secureboot/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
+    talosImageURL: factory.talos.dev/installer-secureboot/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
     controlPlane: true
     networkInterfaces:
       - interface: eth0
@@ -44,7 +44,7 @@ nodes:
       serial: "2244E6801A88"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/installer-secureboot/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
+    talosImageURL: factory.talos.dev/installer-secureboot/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
     controlPlane: true
     networkInterfaces:
       - interface: eth0
@@ -63,7 +63,7 @@ nodes:
       serial: "2244E6801A85"
     machineSpec:
       secureboot: true
-    talosImageURL: factory.talos.dev/installer-secureboot/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
+    talosImageURL: factory.talos.dev/installer-secureboot/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
     controlPlane: true
     networkInterfaces:
       - interface: eth0
