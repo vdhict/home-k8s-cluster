@@ -14,8 +14,6 @@ clusterSvcNets:
 additionalApiServerCertSans: &sans
   - "172.16.2.240"
   - 127.0.0.1 # KubePrism
-  - "vdhclu01.vdh.local"
-  - "vdhclu01"
 additionalMachineCertSans: *sans
 cniConfig:
   name: none
@@ -25,9 +23,7 @@ nodes:
     ipAddress: "172.16.2.81"
     installDiskSelector:
       serial: "2244E6801787"
-    machineSpec:
-      secureboot: true
-    talosImageURL: factory.talos.dev/installer-secureboot/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
+    talosImageURL: factory.talos.dev/installer/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
     controlPlane: true
     networkInterfaces:
       - interface: eth0
@@ -44,9 +40,7 @@ nodes:
     ipAddress: "172.16.2.82"
     installDiskSelector:
       serial: "2244E6801A88"
-    machineSpec:
-      secureboot: true
-    talosImageURL: factory.talos.dev/installer-secureboot/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
+    talosImageURL: factory.talos.dev/installer/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
     controlPlane: true
     networkInterfaces:
       - interface: eth0
@@ -63,9 +57,7 @@ nodes:
     ipAddress: "172.16.2.83"
     installDiskSelector:
       serial: "2244E6801A85"
-    machineSpec:
-      secureboot: true
-    talosImageURL: factory.talos.dev/installer-secureboot/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
+    talosImageURL: factory.talos.dev/installer/376567988ad370138ad8b2698212367b8edcb69b5fd68c80be1f2ec7d603b4ba
     controlPlane: true
     networkInterfaces:
       - interface: eth0
