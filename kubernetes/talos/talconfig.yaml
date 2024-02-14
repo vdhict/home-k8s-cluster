@@ -26,7 +26,7 @@ nodes:
     machineDisks:
       - device: /dev/sda
         partitions:
-          - mountpoint: /var/mnt/disk
+          - mountpoint: /var/mnt/sata
     talosImageURL: factory.talos.dev/installer/1f34431af204f078fba02fbeac3f57b3fb174edab5fa1496b8cc96ebdc82e96e
     controlPlane: true
     networkInterfaces:
@@ -47,7 +47,7 @@ nodes:
     machineDisks:
       - device: /dev/sda
         partitions:
-          - mountpoint: /var/mnt/disk
+          - mountpoint: /var/mnt/sata
     talosImageURL: factory.talos.dev/installer/1f34431af204f078fba02fbeac3f57b3fb174edab5fa1496b8cc96ebdc82e96e
     controlPlane: true
     networkInterfaces:
@@ -68,7 +68,7 @@ nodes:
     machineDisks:
       - device: /dev/sda
         partitions:
-          - mountpoint: /var/mnt/disk
+          - mountpoint: /var/mnt/sata
     talosImageURL: factory.talos.dev/installer/1f34431af204f078fba02fbeac3f57b3fb174edab5fa1496b8cc96ebdc82e96e
     controlPlane: true
     networkInterfaces:

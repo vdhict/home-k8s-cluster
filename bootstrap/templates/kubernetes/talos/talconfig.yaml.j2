@@ -35,7 +35,7 @@ nodes:
     machineDisks:
       - device: {{ item.talos_extra_disk_device }}
         partitions:
-          - mountpoint: /var/mnt/disk
+          - mountpoint: /var/mnt/sata
     {% endif %}
     {% if distribution.talos.secureboot.enabled %}
     machineSpec:
