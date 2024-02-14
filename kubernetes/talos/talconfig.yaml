@@ -23,7 +23,9 @@ nodes:
     ipAddress: "172.16.2.81"
     installDiskSelector:
       serial: "2244E6801787"
-    talosImageURL: factory.talos.dev/installer/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
+    machineSpec:
+      secureboot: true
+    talosImageURL: factory.talos.dev/installer-secureboot/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
     controlPlane: true
     networkInterfaces:
       - interface: eth0
@@ -40,7 +42,9 @@ nodes:
     ipAddress: "172.16.2.82"
     installDiskSelector:
       serial: "2244E6801A88"
-    talosImageURL: factory.talos.dev/installer/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
+    machineSpec:
+      secureboot: true
+    talosImageURL: factory.talos.dev/installer-secureboot/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
     controlPlane: true
     networkInterfaces:
       - interface: eth0
@@ -57,7 +61,9 @@ nodes:
     ipAddress: "172.16.2.83"
     installDiskSelector:
       serial: "2244E6801A85"
-    talosImageURL: factory.talos.dev/installer/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
+    machineSpec:
+      secureboot: true
+    talosImageURL: factory.talos.dev/installer-secureboot/7754058aff49c9b730f6b52dd34ff393902edc4308b4e1df99cd5ffe8673a0cb
     controlPlane: true
     networkInterfaces:
       - interface: eth0
