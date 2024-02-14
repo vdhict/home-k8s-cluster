@@ -6,13 +6,13 @@ talosVersion: v1.6.4
 kubernetesVersion: v1.29.1
 
 clusterName: &cluster home-kubernetes
-endpoint: https://:6443
+endpoint: https://172.16.2.240:6443
 clusterPodNets:
   - "10.69.0.0/16"
 clusterSvcNets:
   - "10.96.0.0/16"
 additionalApiServerCertSans: &sans
-  - ""
+  - "172.16.2.240"
   - 127.0.0.1 # KubePrism
   - "vdhclu01.vdh.local"
   - "vdhclu01"
@@ -37,7 +37,7 @@ nodes:
           - network: 0.0.0.0/0
             gateway: "172.16.2.1"
         vip:
-          ip: ""
+          ip: "172.16.2.240"
   - hostname: "vdhclu01node02"
     ipAddress: "172.16.2.82"
     installDiskSelector:
@@ -54,7 +54,7 @@ nodes:
           - network: 0.0.0.0/0
             gateway: "172.16.2.1"
         vip:
-          ip: ""
+          ip: "172.16.2.240"
   - hostname: "vdhclu01node03"
     ipAddress: "172.16.2.83"
     installDiskSelector:
@@ -71,7 +71,7 @@ nodes:
           - network: 0.0.0.0/0
             gateway: "172.16.2.1"
         vip:
-          ip: ""
+          ip: "172.16.2.240"
 
 patches:
   # Configure containerd
