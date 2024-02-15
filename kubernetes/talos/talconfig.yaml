@@ -23,10 +23,6 @@ nodes:
     ipAddress: "172.16.2.81"
     installDiskSelector:
       serial: "2244E6801787"
-    machineDisks:
-      - device: /dev/sda
-        partitions:
-          - mountpoint: /var/mnt/sata
     talosImageURL: factory.talos.dev/installer/1f34431af204f078fba02fbeac3f57b3fb174edab5fa1496b8cc96ebdc82e96e
     controlPlane: true
     networkInterfaces:
@@ -44,10 +40,6 @@ nodes:
     ipAddress: "172.16.2.82"
     installDiskSelector:
       serial: "2244E6801A88"
-    machineDisks:
-      - device: /dev/sda
-        partitions:
-          - mountpoint: /var/mnt/sata
     talosImageURL: factory.talos.dev/installer/1f34431af204f078fba02fbeac3f57b3fb174edab5fa1496b8cc96ebdc82e96e
     controlPlane: true
     networkInterfaces:
@@ -65,10 +57,6 @@ nodes:
     ipAddress: "172.16.2.83"
     installDiskSelector:
       serial: "2244E6801A85"
-    machineDisks:
-      - device: /dev/sda
-        partitions:
-          - mountpoint: /var/mnt/sata
     talosImageURL: factory.talos.dev/installer/1f34431af204f078fba02fbeac3f57b3fb174edab5fa1496b8cc96ebdc82e96e
     controlPlane: true
     networkInterfaces:
