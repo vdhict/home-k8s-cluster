@@ -31,6 +31,12 @@ nodes:
     installDiskSelector:
       serial: "{{ item.talos_disk_device }}"
     {% endif %}
+    {% if item.talos_extra_disk_device %}
+    machineDisks:
+      - device: {{ item.talos_extra_disk_device }}
+        partitions:
+          - mountpoint: /var/mnt/sata
+    {% endif %}
     {% if distribution.talos.secureboot.enabled %}
     machineSpec:
       secureboot: true
