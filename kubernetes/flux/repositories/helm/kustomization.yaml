@@ -16,3 +16,4 @@ resources:
   - ./longhorn.yaml
   - ./node-feature-discovery.yaml
   - ./external-secrets.yaml
+  - ./intel.yaml
