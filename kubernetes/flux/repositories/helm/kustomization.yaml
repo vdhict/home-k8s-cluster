@@ -17,3 +17,4 @@ resources:
   - ./node-feature-discovery.yaml
   - ./external-secrets.yaml
   - ./intel.yaml
+  - ./cloudnative-pg.yaml
