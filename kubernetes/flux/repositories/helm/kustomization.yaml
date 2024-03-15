@@ -15,3 +15,4 @@ resources:
   - ./xenitab.yaml
   - ./longhorn.yaml
   - ./node-feature-discovery.yaml
+  - ./external-secrets.yaml
