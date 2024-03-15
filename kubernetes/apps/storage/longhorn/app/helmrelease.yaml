@@ -49,7 +49,7 @@ spec:
       concurrentAutomaticEngineUpgradePerNodeLimit: 1
       storageMinimalAvailablePercentage: 5
       StorageOverProvisioningPercentage: 110
-      defaultDataPath: /data
+      defaultDataPath: /var/mnt/sata
     resources:
       requests:
         cpu: 100m
