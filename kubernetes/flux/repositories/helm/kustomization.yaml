@@ -13,8 +13,3 @@ resources:
   - ./postfinance.yaml
   - ./stakater.yaml
   - ./xenitab.yaml
-  - ./longhorn.yaml
-  - ./node-feature-discovery.yaml
-  - ./external-secrets.yaml
-  - ./intel.yaml
-  - ./cloudnative-pg.yaml
